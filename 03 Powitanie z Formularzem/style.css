@@ -1,0 +1,13 @@
+body
+{
+    background-color:lightgreen;
+    color:black;
+    margin: 200px;
+}
+
+button
+{
+    margin-left: 100px;
+    color: white;
+    background-color: black;
+}

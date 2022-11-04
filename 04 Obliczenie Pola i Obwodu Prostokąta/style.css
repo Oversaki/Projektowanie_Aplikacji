@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+    color: grey;
+    font-family:sans-serif;
+    margin: 100px;
+}
+footer {
+    background-color: grey;
+    color: bisque;
+    text-align: center;
+}
+
+section {
+    border: 5px solid grey;
+    margin: 10px;
+}

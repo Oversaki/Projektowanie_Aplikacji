@@ -1,0 +1,17 @@
+body {
+    background-color: #a9ff5d
+    color: #262424;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    color: #262424;
+    background-color: #a9ff5d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px;
+}
+footer
+{
+    background-color: #262424;
+    color: #a9ff5d;
+    text-align: center;
