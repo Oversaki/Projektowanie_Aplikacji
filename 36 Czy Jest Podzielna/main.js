@@ -9,7 +9,9 @@ btn.addEventListener('click', function () {
     if(b==0 || a==0) {
         wynik.innerHTML = 'Nie dzielimy przez zero.';
     } else {
-        let iloraz = a/b;
-        wynik.innerHTML = 'Iloraz liczb: '+a+' i '+b+' '+ 'wynosi: ' +iloraz;
+        if(a%b===0) {
+            wynik.innerHTML = 'Liczba '+a+' jest podzielna przez liczbe '+b+' ';}
+            else
+        wynik.innerHTML = 'Liczba '+a+' nie jest podzielna przez liczbe '+b+' ';
     }
 })
