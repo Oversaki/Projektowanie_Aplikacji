@@ -5,18 +5,18 @@ btn.addEventListener('click', function() {
     let iloraz;
     let suma;
     let iloczyn;
-    let różnica;
+    let roznica;
 
-    let wynik_tekst1 = "";
-    let wynik_tekst2 = "";
-    let wynik_tekst3 = "";
-    let wynik_tekst4 = "";
+    let wynik_tekst1;
+    let wynik_tekst2;
+    let wynik_tekst3;
+    let wynik_tekst4;
 
     suma = (Number(liczba_a.value) + Number(liczba_b.value));
     wynik_tekst1 = `suma = ${suma}<br>`;
 
-    różnica = (Number(liczba_a.value) - Number(liczba_b.value));
-    wynik_tekst2 = `różnica = ${różnica} <br> `;
+    roznica = (Number(liczba_a.value) - Number(liczba_b.value));
+    wynik_tekst2 = `różnica = ${roznica} <br> `;
 
     iloczyn = (Number(liczba_a.value) * Number(liczba_b.value));
     wynik_tekst3 = `iloczyn = ${iloczyn} <br> `;

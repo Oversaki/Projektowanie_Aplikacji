@@ -11,10 +11,9 @@ btn.addEventListener('click', function(){
    let pole = a * b;
    let obwod = 2*a + 2*b;
 
-   let wynik_tekst = `długość boku a = ${a} <br>
+    wynik.innerHTML = `długość boku a = ${a} <br>
                       długość boku b = ${b}<br>
                       pole prostokąta = ${pole} <br>
                       obwód prostokąta = ${obwod} <br>`;
-    wynik.innerHTML = wynik_tekst;
 
 })

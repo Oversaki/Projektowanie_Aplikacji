@@ -6,7 +6,7 @@ const btn = document.querySelector('button');
 
 btn.addEventListener('click', function() {
     let iloraz;
-    let wynik_tekst = "";
+    let wynik_tekst;
     if(Number(liczba_b.value)===0){
         wynik_tekst= "Nie dzielę przez zero";
     }
