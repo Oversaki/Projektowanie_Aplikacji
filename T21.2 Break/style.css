@@ -1,0 +1,16 @@
+body {
+    background-color: #ffbfec;
+    color: #4f544d;
+    font-family: "Comic Sans MS", serif;
+    text-align: center;
+    margin: 100px;
+    border-style: dashed;
+    border-color: #4f544d;
+}
+
+button
+{
+    background-color: #4f544d;
+    color: #ffbfec;
+    font-family: "Comic Sans MS", serif;
+}
