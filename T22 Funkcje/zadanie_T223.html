@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie T223</title>
+</head>
+<body>
+<script>
+
+  function miesiace(d) {
+    if(d>0&&d<13)
+    switch (d) {
+      case 1 :
+        wynik.innerHTML = 'Styczeń'
+        return wynik.innerHTML;
+      case 2 :
+        wynik.innerHTML = 'Luty'
+        return wynik.innerHTML;
+      case 3 :
+        wynik.innerHTML = 'Marzec'
+        return wynik.innerHTML;
+      case 4 :
+        wynik.innerHTML = 'Kwiecień'
+        return wynik.innerHTML;
+      case 5 :
+        wynik.innerHTML = 'Maj'
+        return wynik.innerHTML;
+      case 6 :
+        wynik.innerHTML = 'Czerwiec'
+        return wynik.innerHTML;
+      case 7 :
+        wynik.innerHTML = 'Lipiec'
+        return wynik.innerHTML;
+      case 8 :
+        wynik.innerHTML = 'Sierpień'
+        return wynik.innerHTML;
+      case 9 :
+        wynik.innerHTML = 'Wrzesień'
+        return wynik.innerHTML;
+      case 10:
+        wynik.innerHTML = 'Październik'
+        return wynik.innerHTML;
+      case 11:
+        wynik.innerHTML = 'Listopad'
+        return wynik.innerHTML;
+      case 12:
+        wynik.innerHTML = 'Grudzień'
+        return wynik.innerHTML;
+
+      default:
+        wynik.innerHTML = 'Błąd, liczba spoza zakresu.'
+        return wynik.innerHTML;
+    }
+
+  }
+  wynik.innerHTML(miesiace(5));
+</script>
+
+</body>
+</html>
