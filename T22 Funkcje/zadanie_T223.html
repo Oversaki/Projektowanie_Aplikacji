@@ -8,52 +8,51 @@
 <script>
 
   function miesiace(d) {
-    if(d>0&&d<13)
     switch (d) {
       case 1 :
-        wynik.innerHTML = 'Styczeń'
-        return wynik.innerHTML;
+          return `Styczeń`;
+          break;
       case 2 :
-        wynik.innerHTML = 'Luty'
-        return wynik.innerHTML;
+          return `Luty`;
+          break;
       case 3 :
-        wynik.innerHTML = 'Marzec'
-        return wynik.innerHTML;
+          return `Marzec`;
+          break;
       case 4 :
-        wynik.innerHTML = 'Kwiecień'
-        return wynik.innerHTML;
+          return `Kwiecień`;
+          break;
       case 5 :
-        wynik.innerHTML = 'Maj'
-        return wynik.innerHTML;
+          return `Maj`;
+          break;
       case 6 :
-        wynik.innerHTML = 'Czerwiec'
-        return wynik.innerHTML;
+          return `Czerwiec`;
+          break;
       case 7 :
-        wynik.innerHTML = 'Lipiec'
-        return wynik.innerHTML;
+          return `Lipiec`;
+          break;
       case 8 :
-        wynik.innerHTML = 'Sierpień'
-        return wynik.innerHTML;
+          return `Sierpień`;
+          break;
       case 9 :
-        wynik.innerHTML = 'Wrzesień'
-        return wynik.innerHTML;
+          return `Wrzesień`;
+          break;
       case 10:
-        wynik.innerHTML = 'Październik'
-        return wynik.innerHTML;
+          return `Październik`;
+          break;
       case 11:
-        wynik.innerHTML = 'Listopad'
-        return wynik.innerHTML;
+          return `Listopad`;
+          break;
       case 12:
-        wynik.innerHTML = 'Grudzień'
-        return wynik.innerHTML;
+        return `Grudzień`;
+          break;
 
       default:
-        wynik.innerHTML = 'Błąd, liczba spoza zakresu.'
-        return wynik.innerHTML;
+       return `Błąd, liczba spoza zakresu.`;
+          break;
     }
 
   }
-  wynik.innerHTML(miesiace(5));
+  document.write(miesiace(0))
 </script>
 
 </body>
