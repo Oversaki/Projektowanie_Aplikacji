@@ -5,6 +5,18 @@
     <title>Zadanie T225</title>
 </head>
 <body>
+<script>
+    function euklides(a, b) {
+        let reszta;
+        while (b) {
+            reszta = a % b;
+            a = b;
+            b = reszta;
+        }
+        return a;
+    }
+    document.write(euklides(4,5));
 
+</script>
 </body>
 </html>
