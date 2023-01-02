@@ -7,15 +7,15 @@
 <body>
 <script>
     function euklides(a, b) {
-        let reszta;
-        while (b) {
-            reszta = a % b;
-            a = b;
-            b = reszta;
+        while (a!==b) {
+            if (a>b)
+                a/=a-b;
+            else
+                b/=b-a;
         }
         return a;
     }
-    document.write(euklides(4,5));
+    document.write(euklides(2,4));
 
 </script>
 </body>
