@@ -1,15 +1,20 @@
-const date1 = new Date("22 March 2015");
-const date2 = new Date("10 September 2010");
-const date3 = new Date("10 September 2010");
+const wynik = document.querySelector('#wynik');
+const btn = document.querySelector('button');
 
-console.log(date1 < date2);
+btn.addEventListener('click', function(){
+    const urodziny1 = new Date(document.querySelector('#urodziny1').value);
+    const urodziny2 = new Date(document.querySelector('#urodziny2').value);
 
-console.log(date2.getTime() === date3.getTime());
+    const imie1 = document.querySelector('#imie1').value;
+    const imie2 = document.querySelector('#imie2').value;
 
-const birthdate = new Date(USER.birthdate);
-const today = new Date();
-
-if(today.getMonth() === birthdate.getMonth() && today.getDate() === birthdate.getDate()) {
-    console.log("Dzisiaj urodziny!");
-}
-// porównywanie daty
+    if(urodziny1.getTime() < urodziny2.getTime()){
+        wynik.innerHTML = `${imie1} jest starszy od ${imie2}.`;
+    }
+    else if(urodziny1.getTime() > urodziny2.getTime()){
+        wynik.innerHTML = `${imie2} jest starszy od ${imie1}.`;
+    }
+    else {
+        wynik.innerHTML = `${imie1} i ${imie2} są urodzeni w tym samym roku.`;
+    }
+})
